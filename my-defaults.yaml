@@ -1,0 +1,14 @@
+# 入力ファイル (配列形式で指定)
+input-files:
+- src/sample.md
+
+# 出力ファイル (単一アイテムで指定)
+output-file: sample.pdf
+
+# --pdf-engine オプション
+pdf-engine: lualatex
+
+# テンプレート変数
+variables:
+  documentclass: bxjsarticle
+  classoption: pandoc
